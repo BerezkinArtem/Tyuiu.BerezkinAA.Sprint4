@@ -29,14 +29,14 @@ namespace Tyuiu.BerezkinAA.Sprint4.Task1.V6
             Console.WriteLine("Введите количество элементов массива: ");
             len = Convert.ToInt32(Console.ReadLine());
             int[] array = new int[len];
-            for (int i = 0; i < array.Length - 1; i++)
+            for (int i = 0; i <= array.Length - 1; i++)
             {
                 Console.WriteLine("Введите значение " + i + " элемента массива:");
                 array[i] = Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine();
             Console.WriteLine("Массив: ");
-            for (int i = 0; i < array.Length - 1; i++)
+            for (int i = 0; i <= array.Length - 1; i++)
             {
                 Console.WriteLine(array[i] + "\t");
             }

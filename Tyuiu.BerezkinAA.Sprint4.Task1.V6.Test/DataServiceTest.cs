@@ -12,7 +12,7 @@ namespace Tyuiu.BerezkinAA.Sprint4.Task1.V6.Test
 
             int[] array = { 2, 4, 4, 7, 2, 5, 4, 3, 3, 4 };
             int res = ds.Calculate(array);
-            int wait = 256;
+            int wait = 1024;
 
             Assert.AreEqual(wait, res);
         }
