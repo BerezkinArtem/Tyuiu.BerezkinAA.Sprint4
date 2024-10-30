@@ -13,7 +13,7 @@ namespace Tyuiu.BerezkinAA.Sprint4.Task7.V26.Test
             int[,] mtrx = new int[n, m];
             string value = "351268459614723";
             int res = ds.Calculate(n, m, value);
-            int wait = 0;
+            int wait = 18432;
             Assert.AreEqual(wait, res);
 
         }

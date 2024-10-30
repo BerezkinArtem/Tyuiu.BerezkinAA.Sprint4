@@ -17,7 +17,7 @@ namespace Tyuiu.BerezkinAA.Sprint4.Task7.V26.Lib
                 }
             }
 
-            int count = 0;
+            int count = 1;
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < m; j++)
